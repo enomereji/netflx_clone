@@ -1,0 +1,163 @@
+.main{
+    display: flex;
+
+}
+
+.login-button{
+    background-color: white;
+    color: #3a3a3a; 
+    border: 1px solid;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.signup-button{
+    background-color: coral; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.signup-button:hover {
+    background-color: chocolate;
+}
+
+.login-button:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.container-left{
+    border: 2px solid green;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px; 
+    display: flex;
+}
+
+.container-left-inner{
+    border: 2px solid blue;
+    padding: 20px;
+    
+}
+
+/* First Logo div */
+.div-1 {
+    border: 2px solid coral;
+    padding: 10px;
+    display: flex;
+    align-items: left;
+    margin-bottom: 20px;
+}
+
+.div1-logo img {
+    width: auto;
+    height: auto;
+}
+
+.div-1-text {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.div1 h1{
+   color: blue; 
+}
+
+/* Second Logo div */
+.div-2 {
+    border: 2px solid yellow;
+    padding: 10px;
+    display: flex;
+    align-items: left;
+}
+
+.div1-logo img {
+    width: auto;
+    height: auto;
+}
+
+.div-2-text {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.div1 h2{
+   color: blue; 
+}
+
+/* third right section */
+.div4 {
+    border: 2px solid blue;
+    height: auto;
+    width: 500px;
+    background-image: url("./images/netflix.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.div4 button{
+    background-color: coral;
+    border: none;
+    height: 40px;
+    width: 500px;
+    color: white;
+    margin-top: 20px;
+}
+
+nav{
+    border: 2px solid green;
+    margin-bottom: 70px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    width: 50px;
+    height: 50px;
+}
+
+nav .logo img{
+    width: 100%;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+
+nav ul li{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 400px) {
+    body{
+        background-color: red;
+    }
+
+    .container-right{
+        display: flex;
+        flex-direction: column;
+    }
+}
